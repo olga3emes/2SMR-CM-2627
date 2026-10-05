@@ -4,7 +4,8 @@
 Actualiza el sistema y verifica los servicios:
 ```bash
 sudo apt update
-sudo apt upgrade
+sudo apt upgrade -y
+sudo apt install apache2 -y
 sudo systemctl status apache2
 sudo systemctl status mysql
 ```
@@ -47,6 +48,8 @@ sudo chown -R www-data:www-data /var/www/html/wordpress
 sudo find /var/www/html/wordpress -type d -exec chmod 755 {} \;
 sudo find /var/www/html/wordpress -type f -exec chmod 644 {} \;
 ```
+
+<!-- TODO: Vamos por aquí -->
 
 ## ⚙️ 6. Configurar WordPress
 Copia el archivo de configuración:

@@ -55,7 +55,12 @@ sudo apt update
 Instala el paquete principal de MySQL Server:
 
 ```bash
-sudo apt install mysql-server -y
+sudo apt install mysql-server -y 
+```
+Si os falla:
+
+```bash
+sudo apt install mariadb-server -y
 ```
 
 Verifica que el servicio esté activo:
@@ -78,7 +83,7 @@ sudo systemctl enable mysql
 Ejecuta el script de configuración segura:
 
 ```bash
-sudo mysql_secure_installation
+sudo mysql_secure_installation (si has puesto mariadb-server, no hace falta)
 ```
 
 Durante el proceso podrás:
