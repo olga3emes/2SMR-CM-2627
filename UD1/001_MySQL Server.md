@@ -17,7 +17,7 @@ Instala las utilidades requeridas para añadir repositorios externos y manejar p
 ```bash
 sudo apt install wget gnupg lsb-release -y
 ```
-
+sudo
 ---
 
 ## 🗂️ Paso 2: Instalar MariaDB

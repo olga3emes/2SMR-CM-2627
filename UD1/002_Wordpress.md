@@ -79,9 +79,9 @@ Ejemplo de configuración:
 <VirtualHost *:80>
     ServerAdmin webmaster@localhost
     DocumentRoot /var/www/html/wordpress
-    ServerName midominio.local
+#    ServerName midominio.local
 
-    <Directory /var/www/html/wordpress/>
+    <Directory "/var/www/html/wordpress/">
         AllowOverride All
     </Directory>
 
