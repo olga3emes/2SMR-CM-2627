@@ -65,3 +65,13 @@ CloudWatch (con limitaciones), CloudTrail (con limitaciones), S3 (con limitacion
 Módulo 3:
 
 S3 disponible 99,99% de disponibilidad y durabilidad de 11 nueves (99,999999999%) para los objetos almacenados. Esto significa que los datos almacenados en S3 están altamente disponibles y son extremadamente duraderos, lo que garantiza la integridad y seguridad de la información.
+
+Laboratorio IAM:
+
+Usuarios: personas que acceden a los recursos de la nube.
+
+Políticas: permisos de acceso a recursos.
+
+Grupos: añadimos unas políticas a un grupo y añadimos usuarios al grupo. Los usuarios heredan las políticas del grupo.
+
+Roles: un rol es un conjunto de permisos que se pueden asignar a un usuario o servicio para que pueda acceder a recursos específicos. Los roles son útiles para delegar permisos sin necesidad de compartir credenciales.
