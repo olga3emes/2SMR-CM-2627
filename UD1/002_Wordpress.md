@@ -18,7 +18,7 @@ sudo mysql -u root -p
 Crea la base de datos y el usuario:
 ```sql
 CREATE DATABASE wordpress DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-CREATE USER 'wpuser'@'localhost' IDENTIFIED BY 'contraseña_segura';
+CREATE USER 'wpuser'@'localhost' IDENTIFIED BY 'wordpress';
 GRANT ALL PRIVILEGES ON wordpress.* TO 'wpuser'@'localhost';
 FLUSH PRIVILEGES;
 EXIT;
@@ -27,7 +27,7 @@ EXIT;
 ## 🌐 3. Instalar dependencias necesarias
 Instala extensiones PHP necesarias para WordPress:
 ```bash
-sudo apt install php-mysql php-gd php-xml php-mbstring php-curl php-zip php-intl unzip
+sudo apt install php php-mysql php-gd php-xml php-mbstring php-curl php-zip php-intl unzip
 sudo systemctl restart apache2
 ```
 
@@ -48,8 +48,6 @@ sudo chown -R www-data:www-data /var/www/html/wordpress
 sudo find /var/www/html/wordpress -type d -exec chmod 755 {} \;
 sudo find /var/www/html/wordpress -type f -exec chmod 644 {} \;
 ```
-
-<!-- TODO: Vamos por aquí -->
 
 ## ⚙️ 6. Configurar WordPress
 Copia el archivo de configuración:

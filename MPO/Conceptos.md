@@ -4,16 +4,19 @@ Tipos de escalado: Vertical y Horizontal
 
 Tipos de servicios: IaaS, PaaS, SaaS
 
-Servicios de AWS importantes: 
+### Servicios de AWS importantes: 
 EC2, S3, RDS, Lambda, CloudFront, VPC, IAM, CloudWatch, CloudTrail.
 
-EC2: "Los servidores - como si me creo una MV". Elastic Compute Cloud, es un servicio de computación en la nube que permite a los usuarios ejecutar instancias de servidores virtuales en la infraestructura de AWS.
+**EC2**: "Los servidores - como si me creo una MV". Elastic Compute Cloud, es un servicio de computación en la nube que permite a los usuarios ejecutar instancias de servidores virtuales en la infraestructura de AWS.
 
-S3: "Almacenamiento de objetos - como si me creo un disco duro - Google Drive cateto". Simple Storage Service, es un servicio de almacenamiento de objetos que permite a los usuarios almacenar y recuperar datos en la nube de manera escalable y segura.
+<img src="img/s3.png" alt="S3" height="30">
 
-RDS: "Base de datos - como si me creo una base de datos en mi ordenador". Relational Database Service, es un servicio administrado de bases de datos relacionales que facilita la configuración, operación y escalado de bases de datos en la nube.
+**S3**: "Almacenamiento de objetos - como si me creo un disco duro - Google Drive cateto". Simple Storage Service, es un servicio de almacenamiento de objetos que permite a los usuarios almacenar y recuperar datos en la nube de manera escalable y segura.
 
-Lambda: "Funciones(procedimientos almacenados) - como si me creo un script que se ejecuta en la nube". AWS Lambda es un servicio de computación sin servidor que permite a los usuarios ejecutar código en respuesta a eventos sin tener que aprovisionar o administrar servidores.
+
+**RDS**: "Base de datos - como si me creo una base de datos en mi ordenador". Relational Database Service, es un servicio administrado de bases de datos relacionales que facilita la configuración, operación y escalado de bases de datos en la nube.
+
+**Lambda**: "Funciones(procedimientos almacenados) - como si me creo un script que se ejecuta en la nube". AWS Lambda es un servicio de computación sin servidor que permite a los usuarios ejecutar código en respuesta a eventos sin tener que aprovisionar o administrar servidores.
 
 CloudFront: "CDN - como si me creo un servidor de caché". Amazon CloudFront es un servicio de red de entrega de contenido (CDN) que distribuye contenido a los usuarios finales con baja latencia y altas velocidades de transferencia.
 
