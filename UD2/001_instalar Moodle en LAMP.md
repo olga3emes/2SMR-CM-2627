@@ -49,8 +49,8 @@ sudo chmod -R 755 moodledata
 ## 5. Permisos
 
 ```bash
-sudo chown -R www-data:www-data /var/www/moodle
-sudo chmod -R 755 /var/www/moodle
+sudo chown -R www-data:www-data /var/www/html/moodle
+sudo chmod -R 755 /var/www/html/moodle
 ```
 
 ## 6. Configuración de Apache
@@ -66,8 +66,8 @@ Contenido:
 ```text
 <VirtualHost *:80>
     ServerName localhost # 127.0.0.1
-    DocumentRoot /var/www/moodle/public
-    <Directory /var/www/moodle/public>
+    DocumentRoot /var/www/html/moodle/public
+    <Directory /var/www/html/moodle/public>
         AllowOverride All
         Options FollowSymLinks
         Require all granted
